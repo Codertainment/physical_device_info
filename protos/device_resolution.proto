@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// `java_package` must match the package name you declare for `androidPackage` in your pubspec.yaml
+option java_package = "com.codertainment.physical_device_info.physical_device_info";
+
+message DeviceResolution {
+  double width = 1;
+  double height = 2;
+}
